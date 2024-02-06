@@ -2,8 +2,8 @@
 -- a provider project by Verushka Soto
 
   Status: Active
-    Ironhack project deliverables complete
-    The project has the potential to grow
+      Ironhack project deliverables complete
+      The project has the potential to grow
 # Project objective
   Create a database and a centralized dashboard to find healthcare providers in Puerto Rico
   
@@ -49,8 +49,8 @@
   ## Sources
   1. NPPES: CMS National Plan and Provider Enumeration System
              NPI Registry Public Search is a free directory of all active National Provider Identifier (NPI) records. Healthcare providers acquire their unique 10-digit NPIs              to identify themselves in a standard way throughout their industry.
-     Method: API
-     Source: https://npiregistry.cms.hhs.gov/api/?version=2.1 
+       Method: API
+       Source: https://npiregistry.cms.hhs.gov/api/?version=2.1 
   3. MCS: Healthcare in Puerto Rico
      Method: Web Scraping
      Source: https://mcs.com.pr/es/paginas/herramientas-servicios/directories.aspx
