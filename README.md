@@ -48,20 +48,24 @@
 
   ## Sources
   1. NPPES: CMS National Plan and Provider Enumeration System
-             NPI Registry Public Search is a free directory of all active National Provider Identifier (NPI) records. Healthcare providers acquire their unique 10-digit NPIs              to identify themselves in a standard way throughout their industry.  Method: API  Source: https://npiregistry.cms.hhs.gov/api/?version=2.1 
-  2. MCS: Healthcare in Puerto Rico  Method: Web Scraping  Source: https://mcs.com.pr/es/paginas/herramientas-servicios/directories.aspx
-  5. HUMANA: Healthcare in Puerto Rico
-     Method: PDF - Excel Conversion
-     Source: https://www.humana.com/finder/medical?customerId=1
-  7. MAPFRE: Insurance and Healthcare in Puerto Rico
-     Method: Web Scraping
-     Source: https://ww4.mapfrepr.com/CustomerInquiry/Pages/Informative/HealthProviders.aspx?AspxAutoDetectCookieSupport=1
-  8. FIRST MEDICAL: Healthcare in Puerto Rico
-     Method: Excel Download
-     Source: https://www.firstmedicalpr.com/directorio-de-proveedores/
-  10. MENONITA: Healthcare in Puerto Rico
-      Method: Web Scraping
-      Source: https://directorio.menonitavital.com/home
+             NPI Registry Public Search is a free directory of all active National Provider Identifier (NPI) records. Healthcare providers acquire their unique 10-digit NPIs              to identify themselves in a standard way throughout their industry.
+     * Method: API
+     * Source: https://npiregistry.cms.hhs.gov/api/?version=2.1 
+  2. MCS: Healthcare in Puerto Rico
+     * Method: Web Scraping
+     * Source: https://mcs.com.pr/es/paginas/herramientas-servicios/directories.aspx
+  3. HUMANA: Healthcare in Puerto Rico
+     * Method: PDF - Excel Conversion
+     * Source: https://www.humana.com/finder/medical?customerId=1
+  4. MAPFRE: Insurance and Healthcare in Puerto Rico
+     * Method: Web Scraping
+     * Source: https://ww4.mapfrepr.com/CustomerInquiry/Pages/Informative/HealthProviders.aspx?AspxAutoDetectCookieSupport=1
+  5. FIRST MEDICAL: Healthcare in Puerto Rico
+     * Method: Excel Download
+     * Source: https://www.firstmedicalpr.com/directorio-de-proveedores/
+  6. MENONITA: Healthcare in Puerto Rico
+      * Method: Web Scraping
+      * Source: https://directorio.menonitavital.com/home
 
 # Steps
   1. Identify the sources
