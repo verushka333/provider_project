@@ -31,7 +31,28 @@
   - Canva
 # Project Description
 
-  Paragraph with a description of the dataset, sources, characteristics ,etc.
+  ## Dataset
+  1. First Name (Nombre) -
+  2. Initial (Inicial) -
+  3. Last Name (Apellidos) - 
+  4. Category (Categoria) - 
+  5. Specialty (Especialidad) - 
+  6. Telephone (Telefono) -
+  7. Address (Direccion) -
+  8. Address_2 (Direccion_2) -
+  9. City (Pueblo) -
+  10. Region - 
+  11. State (Estado) -
+  12. Zipcode (Codigo_postal) -
+  13. Source_ID -
+
+  ## Sources
+  1. NPPES -
+  2. MCS -
+  3. HUMANA -
+  4. MAPFRE -
+  5. FIRST MEDICAL -
+  6. MENONITA - ASES 
 
 # Steps
   Add here any insights you had during the project
