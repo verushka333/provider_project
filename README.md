@@ -48,12 +48,8 @@
 
   ## Sources
   1. NPPES: CMS National Plan and Provider Enumeration System
-             NPI Registry Public Search is a free directory of all active National Provider Identifier (NPI) records. Healthcare providers acquire their unique 10-digit NPIs              to identify themselves in a standard way throughout their industry.
-       Method: API
-       Source: https://npiregistry.cms.hhs.gov/api/?version=2.1 
-  3. MCS: Healthcare in Puerto Rico
-     Method: Web Scraping
-     Source: https://mcs.com.pr/es/paginas/herramientas-servicios/directories.aspx
+             NPI Registry Public Search is a free directory of all active National Provider Identifier (NPI) records. Healthcare providers acquire their unique 10-digit NPIs              to identify themselves in a standard way throughout their industry.  Method: API  Source: https://npiregistry.cms.hhs.gov/api/?version=2.1 
+  2. MCS: Healthcare in Puerto Rico  Method: Web Scraping  Source: https://mcs.com.pr/es/paginas/herramientas-servicios/directories.aspx
   5. HUMANA: Healthcare in Puerto Rico
      Method: PDF - Excel Conversion
      Source: https://www.humana.com/finder/medical?customerId=1
