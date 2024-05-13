@@ -11,6 +11,9 @@ SELECT 'mcs', source_id, nombre, inicial, apellidos, categoria, especialidad, te
 UNION ALL
 SELECT 'mapfre', source_id, nombre, inicial, apellidos, categoria, especialidad, telefono, pueblo FROM mapfre_providers
 UNION ALL
-SELECT 'menonita', source_id, nombre, inicial, apellidos, categoria, especialidad, telefono, pueblo FROM menonita;
+SELECT 'menonita', source_id, nombre, inicial, apellidos, categoria, especialidad, telefono, pueblo FROM menonita
+UNION ALL
+SELECT 'triples', source_id, nombre, inicial, apellidos, categoria, especialidad, telefono, pueblo FROM triples;
+
 
 

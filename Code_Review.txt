@@ -1,0 +1,28 @@
+# Initialize a variable to track the current page
+current_page = 0
+
+# Loop until the "Next" button is no longer visible
+while True:
+    try:
+        # Wait for the "Next" button to be clickable
+        browser.refresh()
+        WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, f"a#ctl00_Content_lnkFooterNum{current_page}")))
+
+        next_page = Select(browser.find_element(By.CSS_SELECTOR, f"a#ctl00_Content_lnkFooterNum{current_page}"))
+        
+        # Scroll to the element before clicking it
+        #browser.execute_script("arguments[0].scrollIntoView();", next_page_element)
+        next_page_element.click()
+        
+        print(f"Next page was clicked {current_page}")
+        time.sleep(5)  # Wait for the page to refresh
+        print(browser.current_url)
+        
+        current_page += 1
+        
+    except StaleElementReferenceException:
+        continue
+        
+    except TimeoutException:
+        print("Reached the last page.")
+        break  # Break the loop if the 'Next' button is not found (i.e., we're on the last page)
